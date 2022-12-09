@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Tailwind</title>
+    <link rel="stylesheet" href="./public/css/output.css">
+    <script src="https://kit.fontawesome.com/fb421a811f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- ======================= LOGO ======================= -->
+
+
+    <section class="flex items-center bg-slate-100 justify-center py-16">
+
+        <div class="logo-container flex flex-col items-center sm:flex-row bg-background">
+            <div class="w-[15.813rem] h-[4.375rem] bg-white text-center flex items-center justify-center leading-8 hover:bg-indigo-800 text-indigo-800 hover:text-white transition duration-200">
+                <span class="text-2xl my-auto font-bold">Startup 3</span>
+            </div>
+
+            <div class="w-[15.813rem] h-[4.375rem] bg-indigo-800 text-center flex items-center justify-center leading-6 text-white hover:bg-white hover:text-indigo-800 transition duration-200">
+                <span class="text-2xl my-auto font-bold">Startup 3</span>
+            </div>
+        </div>
+
+    </section>
+    
+    <div class="space"></div>
+
+    <!-- ======================= BUTTON ======================= -->
+    
+    
+
+    <section class="flex flex-col md:flex-row items-center justify-center py-20 bg-slate-100">
+
+
+        <div class="flex flex-col bg-white space-y-7 p-10">
+            <button class="w-10 h-10 pl-1 grid place-items-center bg-[#EA3223] rounded-full hover:outline hover:outline-offset-2 hover:outline-red-300 active:bg-[#Ce3527] focus:outline focus:outline-offset-2 focus:outline-red-400 transition duration-500">
+                <i class="fa-solid fa-play text-white m-auto text-xl"></i>
+            </button>
+
+            <button class="h-[2.5rem] w-[5.625rem] bg-[#25DAC5] text-base font-medium text-white rounded-full hover:bg-[#26e2cc] hover:outline hover:outline-offset-2 hover:outline-sky-200 active:bg-[#1bd4bf] focus:outline focus:outline-offset-2 focus:outline-sky-300 transition duration-500">
+                <span>Sign in</span>
+            </button>
+
+            <button class="h-[3.125rem] w-[6.25rem] bg-[#25DAC5] text-lg font-medium text-white rounded-full hover:bg-[#26e2cc] hover:outline hover:outline-offset-2 hover:outline-sky-200 active:bg-[#1bd4bf] focus:outline focus:outline-offset-2 focus:outline-sky-300 transition duration-500">
+                <span>Sign in</span>
+            </button>
+
+            <button class="h-[3.75rem] w-[7.5rem] bg-[#25DAC5] text-xl font-medium text-white rounded-full hover:bg-[#26e2cc] hover:outline hover:outline-offset-2 hover:outline-sky-200 active:bg-[#1bd4bf] focus:outline focus:outline-offset-2 focus:outline-sky-300 transition duration-500">
+                <span>Sign in</span>
+            </button>
+        </div>
+
+
+        <div class="flex flex-col bg-white space-y-7 p-10">
+            <button class="w-10 h-10 pl-1 grid place-items-center bg-white border-2 border-violet-300 rounded-full hover:outline hover:outline-offset-2 hover:outline-blue-400 active:bg-[#1E0E62] active:text-white text-[#1E0E62] focus:outline focus:outline-offset-2 focus:outline-sky-300 transition duration-500">
+                <i class="fa-solid fa-play m-auto text-xl"></i>
+            </button>
+
+            <button class="h-[2.5rem] w-[5.625rem] bg-white text-base font-medium text-[#1E0E62] border-2 border-[#EBEAED] rounded-full hover:bg-[#1E0E62] hover:text-white hover:outline hover:outline-offset-2 hover:outline-blue-400 active:bg-[#1E0E62] focus:outline focus:outline-offset-2 focus:outline-sky-300 transition duration-500">
+                <span>Sign in</span>
+            </button>
+
+            <button class="h-[3.125rem] w-[6.25rem] bg-white text-lg font-medium text-[#1E0E62] border-2 border-[#EBEAED] rounded-full hover:bg-[#1E0E62] hover:text-white hover:outline hover:outline-offset-2 hover:outline-blue-400 active:bg-[#1E0E62] focus:outline focus:outline-offset-2 focus:outline-sky-300 transition duration-500">
+                <span>Sign in</span>
+            </button>
+
+            <button class="h-[3.75rem] w-[7.5rem] bg-white text-xl font-medium text-[#1E0E62] border-2 border-[#EBEAED] rounded-full hover:bg-[#1E0E62] hover:text-white hover:outline hover:outline-offset-2 hover:outline-blue-400 active:bg-[#1E0E62] focus:outline focus:outline-offset-2 focus:outline-sky-300 transition duration-500">
+                <span>Sign in</span>
+            </button>
+        </div>
+
+        <div class="flex flex-col bg-[#2F1893] space-y-7 p-10">
+            <button class="w-10 h-10 pl-1 grid place-items-center text-white bg-[#2F1893] border-2 border-white border-opacity-30 rounded-full hover:bg-[#1E0E62] hover:outline hover:outline-2 hover:outline-offset-2 hover:outline-bg-[#1E0E62] active:bg-white focus:bg-white focus:outline-offset-2 focus:outline-gray-100  focus:text-[#2F1893]">
+                <i class="fa-solid fa-play m-auto text-xl"></i>
+            </button>
+
+            <button class="h-[2.5rem] w-[5.625rem] bg-[#2F1893] text-base font-medium text-white border-2 border-white border-opacity-30 rounded-full hover:bg-[#1E0E62] hover:text-white hover:outline hover:outline-2 hover:outline-offset-2 active:bg-white focus:bg-white focus:outline-offset-2 focus:text-[#2F1893]  focus:outline-gray-100">
+                <span>Sign in</span>
+            </button>
+
+            <button class="h-[3.125rem] w-[6.25rem] bg-[#2F1893] text-lg font-medium text-white border-2 border-white border-opacity-30 rounded-full hover:bg-[#1E0E62] hover:text-white hover:outline hover:outline-2 hover:outline-offset-2 active:bg-white focus:bg-white focus:outline-offset-2 focus:text-[#2F1893]  focus:outline-gray-100">
+                <span>Sign in</span>
+            </button>
+
+            <button class="h-[3.75rem] w-[7.5rem] bg-[#2F1893] text-xl font-medium text-white border-2 border-white border-opacity-30 rounded-full hover:bg-[#1E0E62] hover:text-white hover:outline hover:outline-2 hover:outline-offset-2 active:bg-white focus:bg-white focus:outline-offset-2 focus:text-[#2F1893]  focus:outline-gray-100">
+                <span>Sign in</span>
+            </button>
+        </div>
+
+
+    </section>
+
+    <div class="space"></div>
+
+    <!-- ======================= INPUTS ======================= -->
+
+
+
+    <section class="inputs py-20 bg-slate-100">
+        <div class="flex flex-col md:flex-row items-center justify-center">
+            <div class="flex flex-col gap-12 bg-white py-16 px-2 md:px-10">
+                <div class="flex flex-col gap-5">
+                    <input type="text" placeholder="Your email" class="h-[3.125rem] w-full md:w-[16.875rem] rounded-full pl-5 placeholder:font-medium placeholder:text-xl border-2 border-bright-gray focus:outline-3 focus:outline-violet-300">
+                    <input type="text" placeholder="Your email" class="h-[3.125rem] w-full md:w-[16.875rem] text-white rounded-full pl-5 placeholder:font-medium placeholder:text-xl bg-[#1E0E62] focus:outline-3 focus:outline-violet-300">
+                </div>
+
+                <div class="flex flex-col gap-5">
+                    <input type="text" placeholder="Your email" class="h-[3.75rem] w-full md:w-[21.875rem] rounded-full pl-5 placeholder:font-medium placeholder:text-xl border-2 border-bright-gray focus:outline-3 focus:outline-violet-300">
+                    <input type="text" placeholder="Your email" class="h-[3.75rem] w-full md:w-[21.875rem] text-white rounded-full pl-5 placeholder:font-medium placeholder:text-xl bg-[#1E0E62] focus:outline-3 focus:outline-violet-300">
+                </div>
+
+                <div class="flex flex-col gap-5">
+                    <input type="text" placeholder="Your email" class="h-[2.5rem] w-full md:w-[12.5rem] rounded-full pl-5 placeholder:[font-medium] placeholder:text-base border-2 border-bright-gray focus:outline-3 focus:outline-violet-300">
+                    <input type="text" placeholder="Your email" class="h-[2.5rem] w-full md:w-[12.5rem] text-white rounded-full pl-5 placeholder:[font-medium] placeholder:text-base bg-[#1E0E62] focus:outline-3 focus:outline-violet-300">
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-12 bg-[#2F1893] py-16 px-2 md:px-10">
+                <div class="flex flex-col gap-5">
+                    <input type="text" placeholder="Your email" class="h-[3.125rem] w-full md:w-[16.875rem] text-white rounded-full pl-5 placeholder:font-medium placeholder:text-xl bg-[#2F1893] focus:outline-3 focus:outline-violet-300  border-2 border-white border-opacity-20">
+                    <input type="text" placeholder="Your email" class="h-[3.125rem] w-full md:w-[16.875rem] rounded-full pl-5 placeholder:font-medium placeholder:text-xl focus:outline-3 focus:outline-violet-300">
+                </div>
+
+                <div class="flex flex-col gap-5">
+                    <input type="text" placeholder="Your email" class="h-[3.75rem] w-full md:w-[21.875rem] text-white rounded-full pl-5 placeholder:font-medium placeholder:text-xl bg-[#2F1893] focus:outline-3 focus:outline-violet-300  border-2 border-white border-opacity-20">
+                    <input type="text" placeholder="Your email" class="h-[3.75rem] w-full md:w-[21.875rem] rounded-full pl-5 placeholder:font-medium placeholder:text-xl focus:outline-3 focus:outline-violet-300">
+                </div>
+
+                <div class="flex flex-col gap-5">
+                    <input type="text" placeholder="Your email" class="h-[2.5rem] w-full md:w-[12.5rem] text-white rounded-full pl-5 placeholder:[font-medium] placeholder:text-base bg-[#2F1893] focus:outline-3 focus:outline-violet-300  border-2 border-white border-opacity-20">
+                    <input type="text" placeholder="Your email" class="h-[2.5rem] w-full md:w-[12.5rem] rounded-full pl-5 placeholder:[font-medium] placeholder:text-base focus:outline-3 focus:outline-violet-300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="space"></div>
+
+    <!-- ======================= DROPDOWNS ======================= -->
+
+
+
+    <section class="dropdowns flex flex-col md:flex-row items-center justify-center py-20 bg-slate-100">
+
+        <div class="flex flex-col items-center bg-white w-full md:w-[332px] md:p-7 gap-10">
+
+            <div class="flex flex-col gap-3">            
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[2.5rem] text-[#1E0E62] bg-white border-2 border-[#EBEAED] focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#1E0E62] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[2.5rem] text-white bg-[#1E0E62] focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#1E0E62] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-[#1E0E62] rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+            </div>
+
+            <div class="flex flex-col gap-3">            
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[3.125rem] text-[#1E0E62] bg-white border-2 border-[#EBEAED] focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#1E0E62] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[3.125rem] text-white bg-[#1E0E62] focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-offset-2 focus:outline-[#1E0E62] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-[#1E0E62] rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+            </div>
+
+            <div class="flex flex-col gap-3">            
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[3.75rem] text-[#1E0E62] bg-white border-2 border-[#EBEAED] focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#1E0E62] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[3.75rem] text-white bg-[#1E0E62] focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-offset-2 focus:outline-[#1E0E62] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-[#1E0E62] rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+            </div>
+
+        </div>
+
+
+
+        <div class="flex flex-col items-center bg-[#2F1893] w-full md:w-[332px] md:p-7 gap-10">
+
+            <div class="flex flex-col gap-3">            
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[2.5rem] text-white bg-[#2F1893]  border-2 border-white border-opacity-20 focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#bcb7d0] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[2.5rem] text-[#1E0E62] bg-white focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#bcb7d0] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-[#1E0E62] rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+            </div>
+
+            <div class="flex flex-col gap-3">            
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[3.125rem] text-white bg-[#2F1893]  border-2 border-white border-opacity-20 focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#bcb7d0] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[3.125rem] text-[#1E0E62] bg-white focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-offset-2 focus:outline-[#bcb7d0] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-[#1E0E62] rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+            </div>
+
+            <div class="flex flex-col gap-3">            
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[3.75rem] text-white bg-[#2F1893]  border-2 border-white border-opacity-20 focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#bcb7d0] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="w-full md:w-[11.875rem] h-[3.75rem] text-[#1E0E62] bg-white focus:outline focus:outline-offset-2 focus:outline-2 focus:outline-[#bcb7d0] font-medium rounded-full text-base text-center inline-flex items-center px-5" type="button">Dropdown <svg class="ml-14 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                
+                <div id="dropdown" class="hidden z-10 w-44 bg-[#1E0E62] rounded divide-y divide-gray-100 shadow">
+                    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-black hover:bg-violet-300">Another think</a>
+                    </li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+
+    <div class="space"></div>
+
+    <!-- ======================= BADGES ======================= -->
+
+
+
+    <section class="badges flex flex-col py-20 items-center justify-center bg-slate-100">
+        <div class="flex flex-col bg-white gap-3 items-center py-7 justify-center w-[11.125rem]">
+            <span class="bg-white rounded-xl h-[1.875rem] w-[7.438rem] tracking-widest font-bold pt-1 border border-2 border-[#EBEAED] text-center text-sm text-[#1E0E62] font-[DM Sans] leading-6">60% SALES</span>
+            <span class="bg-[#1E0E62] rounded-xl h-[1.875rem] w-[7.438rem] tracking-widest font-bold pt-1 text-center text-sm text-white font-[DM Sans] leading-6">60% SALES</span>
+            <span class="bg-[#151439] bg-opacity-40 rounded-xl h-[1.875rem] w-[7.438rem] tracking-widest font-bold pt-1 text-center text-sm text-white font-[DM Sans] leading-6">60% SALES</span>
+            <span class="bg-[#482BE7] rounded-xl h-[1.875rem] w-[7.438rem] tracking-widest font-bold pt-1 text-center text-sm text-white font-[DM Sans] leading-6">60% SALES</span>
+            <span class="bg-[#25DAC5] rounded-xl h-[1.875rem] w-[7.438rem] tracking-widest font-bold pt-1 text-center text-sm text-white font-[DM Sans] leading-6">60% SALES</span>
+            <span class="bg-[#E93A7D] rounded-xl h-[1.875rem] w-[7.438rem] tracking-widest font-bold pt-1 text-center text-sm text-white font-[DM Sans] leading-6">60% SALES</span>
+        </div>
+        <div class="flex flex-col items-center justify-center gap-3 bg-[#2F1893] w-[11.125rem] h-[10rem]">
+            <span class="bg-[#2F1893] rounded-xl h-[1.875rem] w-[7.438rem] tracking-widest font-bold pt-[0.125rem] border-2 border-white border-opacity-20  text-center text-sm text-white font-[DM Sans] leading-6">60% SALES</span>
+            <span class="bg-white rounded-xl h-[1.875rem] w-[7.438rem] tracking-widest font-bold pt-[0.125rem] border border-2 border-[#EBEAED] text-center text-sm text-[#1E0E62] font-[DM Sans] leading-6">60% SALES</span>
+        </div>
+    </section>
+
+    <div class="space"></div>
+
+    <!-- ======================= RADIO-BUTTON ======================= -->
+
+
+
+    <section class="radio-button bg-slate-100 flex py-20 items-center justify-center">
+        <form class="w-40 h-36 bg-white gap-3 flex justify-center items-center">
+            <input type="radio" name="radiobutton" id="#radio-button" class="h-5 w-5 border-0 bg-background text-green ">
+            <input type="radio" name="radiobutton" id="#radio-button" class="h-5 w-5 border-0 bg-background text-green ">
+        </form>
+    </section>
+
+    <div class="space"></div>
+
+    <!-- ======================= CHECKBUTTON ======================= -->
+
+
+
+    <section class="check-button bg-slate-100 flex py-20 items-center justify-center">
+        <form class="w-40 h-36 bg-white gap-3 flex justify-center items-center">
+            <input type="checkbox" name="ckeckbutton" id="#check-button" class="h-5 w-5 border-0 bg-background text-green  rounded">
+            <input type="checkbox" name="ckeckbutton" id="#check-button" class="h-5 w-5 border-0 bg-background text-green  rounded">
+        </form>
+    </section>
+
+    <div class="space"></div>
+
+    <!-- ======================= SWITCH ======================= -->
+
+
+
+    <section class="switch bg-slate-100 flex py-20 items-center justify-center">
+        <div class="w-40 h-36 bg-white gap-3 flex justify-center items-center">
+            <label class="inline-flex relative items-center mr-5 cursor-pointer">
+                <input type="checkbox" value="" class="sr-only peer">
+
+                <div class="w-11 ml-5 h-6 bg-[#EBEAED] rounded-full peer peer-focus:ring-2 peer-focus:ring-[#a8f0e8] peer-focus:ring-offset-2 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[22px] after:bg-[#151439] after:bg-opacity-40 after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#25DAC5] transition duration-500"></div>
+
+        
+              </label>
+    </section>
+
+    <div class="space"></div>
+
+    <!-- ======================= SELECTOR ======================= -->
+
+
+
+    <section class="selector bg-slate-100 flex flex-col py-20 items-center justify-center">
+
+
+        <div class="flex flex-col gap-4 bg-white md:h-auto w-full md:w-[33.563rem] p-10">
+
+            <div class="w-auto md:w-[26rem] flex items-center justify-center rounded-full">
+
+                <button class="w-[8.75rem] h-[2.5rem] text-base font-medium text-[#A1A1B0] border border-2 border-dark rounded-l-full hover:bg-[#e9e7ef] focus:bg-[#1E0E62] focus:text-white transition duration-200">first</button>
+                <button class="w-[8.75rem] h-[2.5rem] text-base font-medium text-[#A1A1B0] border border-2 border-dark hover:bg-[#e9e7ef] focus:bg-[#1E0E62] focus:text-white transition duration-200">Second</button>
+                <button class="w-[8.75rem] h-[2.5rem] text-base font-medium text-[#A1A1B0] border border-2 border-dark rounded-r-full hover:bg-[#e9e7ef] focus:bg-[#1E0E62] focus:text-white transition duration-200">Third</button>
+            </div>
+
+            <div class="w-auto md:w-[26rem] h-[3.125rem] flex items-center justify-center">
+
+                <button class="w-[8.75rem] h-[3.125rem] text-base font-medium text-[#A1A1B0] border border-2 border-dark rounded-l-full hover:bg-[#e9e7ef] focus:bg-[#1E0E62] focus:text-white transition duration-200">first</button>
+                <button class="w-[8.75rem] h-[3.125rem] text-base font-medium text-[#A1A1B0] border border-2 border-dark hover:bg-[#e9e7ef] focus:bg-[#1E0E62] focus:text-white transition duration-200">Second</button>
+                <button class="w-[8.75rem] h-[3.125rem] text-base font-medium text-[#A1A1B0] border border-2 border-dark rounded-r-full hover:bg-[#e9e7ef] focus:bg-[#1E0E62] focus:text-white transition duration-200">Third</button>
+            </div>
+
+        </div>
+
+        <div class="flex flex-col gap-4 bg-[#2F1893] md:h-auto w-full md:w-[33.563rem] p-10">
+
+            <div class="w-auto md:w-[26rem] flex items-center justify-center rounded-full">
+
+                <button class="w-[8.75rem] h-[2.5rem] text-base font-medium text-white border border-2 border-white  rounded-l-full hover:bg-[#e9e7ef] hover:text-[#625691] focus:bg-white focus:text-[#1E0E62] transition duration-200">first</button>
+                <button class="w-[8.75rem] h-[2.5rem] text-base font-medium text-white border border-2 border-white  hover:bg-[#e9e7ef] hover:text-[#625691] focus:bg-white  focus:text-[#1E0E62] transition duration-200">Second</button>
+                <button class="w-[8.75rem] h-[2.5rem] text-base font-medium text-white border border-2 border-white  rounded-r-full hover:bg-[#e9e7ef] hover:text-[#625691] focus:bg-white focus:text-[#1E0E62] transition duration-200">Third</button>
+            </div>
+
+            <div class="w-auto md:w-[26rem] h-[3.125rem] flex items-center justify-center">
+
+                <button class="w-[8.75rem] h-[3.125rem] text-base font-medium text-white border border-2 border-white  rounded-l-full hover:bg-[#e9e7ef] hover:text-[#625691] focus:bg-white focus:text-[#1E0E62] transition duration-200">first</button>
+                <button class="w-[8.75rem] h-[3.125rem] text-base font-medium text-white border border-2 border-white  hover:bg-[#e9e7ef] hover:text-[#625691] focus:bg-white focus:text-[#1E0E62] transition duration-200">Second</button>
+                <button class="w-[8.75rem] h-[3.125rem] text-base font-medium text-white border border-2 border-white  rounded-r-full hover:bg-[#e9e7ef] hover:text-[#625691] focus:bg-white focus:text-[#1E0E62] transition duration-200">Third</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="space"></div>
+
+    <!-- ======================= BUTTON ======================= -->
+
+
+
+    <section class="paginators bg-slate-100 flex flex-col md:flex-row py-20 items-center justify-center"> 
+
+
+        <div class="h-[8.5rem] w-[14rem] flex justify-center items-center gap-3 bg-white">
+
+            <button class="w-[0.688rem] h-[0.688rem] bg-background rounded-full focus:bg-[#25DAC5] transition duration-200 focus:ring focus:ring-gray-200"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-background rounded-full focus:bg-[#25DAC5] transition duration-200 focus:ring focus:ring-gray-200"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-background rounded-full focus:bg-[#25DAC5] transition duration-200 focus:ring focus:ring-gray-200"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-background rounded-full focus:bg-[#25DAC5] transition duration-200 focus:ring focus:ring-gray-200"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-background rounded-full focus:bg-[#25DAC5] transition duration-200 focus:ring focus:ring-gray-200"></button>
+        </div>
+
+
+        <div class="h-[8.5rem] w-[14rem] flex justify-center items-center gap-3 bg-white">
+
+            <button class="w-[0.688rem] h-[0.688rem] bg-white border border-2 rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-gray-200"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-white border border-2 rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-gray-200"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-white border border-2 rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-gray-200"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-white border border-2 rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-gray-200"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-white border border-2 rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-gray-200"></button>
+        </div>
+
+        <div class="h-[8.5rem] w-[14rem] flex justify-center items-center gap-3 bg-[#2F1893]">
+
+            <button class="w-[0.688rem] h-[0.688rem] bg-[#2F1893] border border-2 border-[#6D5DB3] rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-violet-800"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-[#2F1893] border border-2 border-[#6D5DB3] rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-violet-800"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-[#2F1893] border border-2 border-[#6D5DB3] rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-violet-800"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-[#2F1893] border border-2 border-[#6D5DB3] rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-violet-800"></button>
+            <button class="w-[0.688rem] h-[0.688rem] bg-[#2F1893] border border-2 border-[#6D5DB3] rounded-full focus:bg-[#1E0E62] transition duration-200 focus:ring focus:ring-violet-800"></button>
+        </div>
+        
+
+
+    </section>
+
+    <div class="space"></div>
+
+   <!--  ======================= TEXTAREA ======================= -->
+
+
+
+    <section class="bg-slate-100 flex flex-col md:flex-row py-20 items-center justify-center">
+
+
+        <div class="flex flex-col px-14 py-20 bg-white gap-10 w-full md:w-auto">
+
+            
+            <div class="flex flex-col gap-5">
+
+                <textarea class="w-full md:w-[15rem] h-[5.625rem] border-3 border-[#EBEAED] px-4 py-3 rounded-xl placeholder:text-gray-500/75 focus:ring-violet-300 focus:ring-2 focus:ring-offset-4 focus:border-none" placeholder="Your message"></textarea>
+                <textarea class="w-full md:w-[15rem] h-[5.625rem] bg-[#1E0E62] border-3 border-[#EBEAED] px-4 py-3 rounded-xl placeholder:text-gray-500/75 focus:ring-violet-300 focus:ring-2 focus:ring-offset-4 focus:border-none text-white" placeholder="Your message"></textarea>
+            
+            </div>
+
+            <div class="flex flex-col gap-5">
+
+                <textarea class="w-full md:w-[16.875rem] h-[6.25rem] border-3 border-[#EBEAED] px-4 py-3 rounded-xl placeholder:text-gray-500/75 focus:ring-violet-300 focus:ring-2 focus:ring-offset-4 focus:border-none" placeholder="Your message"></textarea>
+                <textarea class="w-full md:w-[16.875rem] h-[6.25rem] bg-[#1E0E62] border-3 border-[#EBEAED] px-4 py-3 rounded-xl placeholder:text-gray-500/75 focus:ring-violet-300 focus:ring-2 focus:ring-offset-4 focus:border-none text-white" placeholder="Your message"></textarea>
+            
+            </div>
+
+            
+        </div>
+
+
+
+
+        <div class="flex flex-col px-14 py-20 bg-[#2F1893] gap-10 w-full md:w-auto">
+
+            
+            <div class="flex flex-col gap-5">
+
+                <textarea class="w-full md:w-[15rem] h-[5.625rem] border-3 border-[#EBEAED] px-4 py-3 rounded-xl placeholder:text-gray-500/75 focus:ring-violet-300 focus:ring-2 focus:border-none" placeholder="Your message"></textarea>
+                <textarea class="w-full md:w-[15rem] h-[5.625rem] bg-[#2F1893] border-2 border-white border-opacity-20 px-4 py-3 rounded-xl placeholder:text-gray-500/75 focus:ring-violet-300 focus:ring-2 focus:border-none text-white" placeholder="Your message"></textarea>
+            
+            </div>
+
+            <div class="flex flex-col gap-5">
+
+                <textarea class="w-full md:w-[16.875rem] h-[6.25rem] border-3 border-[#EBEAED] px-4 py-3 rounded-xl placeholder:text-gray-500/75 focus:ring-violet-300 focus:ring-2 focus:border-none" placeholder="Your message"></textarea>
+                <textarea class="w-full md:w-[16.875rem] h-[6.25rem] bg-[#2F1893] border-2 border-white border-opacity-20 px-4 py-3 rounded-xl placeholder:text-gray-500/75 focus:ring-violet-300 focus:ring-2 focus:border-none text-white" placeholder="Your message"></textarea>
+            
+            </div>
+
+            
+        </div>
+        
+
+    </section>
+
+
+
+
+    <div class="space"></div>
+
+
+
+
+    <!-- ======================= TESTIMONIALS ======================= -->
+
+
+    <section class="bg-slate-100 flex flex-col py-20 items-center justify-center">
+
+
+
+        <div class="h-auto w-full md:w-[47.5rem] md:h-[22.438rem]  bg-white flex items-center">
+
+            <div class="w-full py-16 px-14">
+
+                <div class="items-center justify-center md:justify-start flex flex-col md:flex-row gap-7">
+                    <img src="./public/css/imgs/testimonials-01.png" alt="" class="w-[4.375rem] h-[4.375rem] hover:origin-center hover:rotate-12 transition duration-500 m-auto md:m-0">
+                    
+                    <div class="flex flex-col w-full md:w-[23rem]">
+                        <p class="text-lg text-[#151439]/40 font-medium">
+                            Extremely easy to use, helped us develop our Vote for George Washington micro-site extre- mely quickly! We will definitely use it again for other projects
+                        </p>
+                        <p class="text-[14px] leading-[26px] text-[#1E0E62] font-bold mt-[20px] tracking-[.20em]">
+                            JASMINE ANDREWS
+                        </p>
+                        <span class="text-[#151439]/40 text-[16px]">MICROSOFT</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="w-full md:w-[47.5rem] h-auto md:h-[22.438rem] bg-[#2F1893] flex items-center">
+
+            <div class="w-full py-16 px-14" >
+
+                <div class="flex flex-col md:flex-row gap-7 py-7 px-8 border-2 border-white border-opacity-20 rounded-xl md:w-9/12 hover:shadow-2xl hover:shadow-indigo-500/50 transition duration-200">
+
+                    <img src="./public/css/imgs/testimonials-02.png" alt="" class="w-[4.375rem] h-[4.375rem] hover:origin-center hover:rotate-12 transition duration-500 m-auto md:m-0">
+                    
+                    <div class="flex flex-col items-center justify-center md:items-start md:justify-start w-full md:w-[23rem]">
+                        <p class="md:text-lg text-white font-medium text-center sm:text-left text-sm">
+                            Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support.    
+                        </p>
+                        <p class="md:text-[14px] leading-[26px] text-[#6D5DB3] font-bold mt-[20px] tracking-[.20em] text-center md:text-left text-sm">
+                            TIMOTHY NATHAN
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        
+    </section>
+
+    <script src="../path/to/flowbite/dist/flowbite.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+</body>
+</html>

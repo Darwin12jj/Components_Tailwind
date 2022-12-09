@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.space {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(105, 105, 105, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+[type="checkbox"]:checked {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='black' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+}
+
+#checkbox-verificate {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='black' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+}
+
+.bg-background {
+   --tw-bg-opacity: 1;
+   background-color: rgb(242 242 242 / var(--tw-bg-opacity));
+}
+
+.text-green {
+    --tw-text-opacity: 1;
+    color: rgb(37 218 197 / var(--tw-text-opacity));
+}
+
+[type='checkbox']:checked {
+    border-color: transparent;
+    background-color: currentColor;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+[type="radio"]:checked {
+    background-image: url ("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='black' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='4'/%3e%3c/svg%3e") !;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}   
